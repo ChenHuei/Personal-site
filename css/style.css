@@ -1,0 +1,458 @@
+/*  -------------- 初始設定 -------------- */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 85%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section {
+  padding: 100px 0;
+}
+
+/*  -------------- header -------------- */
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  background-color: #222;
+  z-index: 100;
+}
+
+#logo {
+  float: left;
+}
+
+#logo a img {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  padding: 15px 12px;
+  display: inline-block;
+}
+
+/*  -------------- header -------------- */
+
+.home_bg {
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container_table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container_table_cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container_table_cell h2 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 60px;
+}
+
+.social_icons a {
+  color: #fff;
+  display: inline-block;
+  font-size: 25px;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  margin: 3px 10px;
+}
+
+/*  -------------- about me -------------- */
+
+h2 {
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.col-left, .col-right {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.personal-info h3 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.personal-info p {
+  color: #767676;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.skill {
+  margin: 30px auto;
+}
+
+.skill li {
+  font-size: 15px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.button-group .download_cv, .button-group .hire_me {
+  display: inline-block;
+}
+
+.button-group .download_cv {
+  margin-right: 18px;
+}
+
+.button-group a {
+  display: inline-block;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 35px;
+  text-transform: capitalize;
+}
+
+.button-group a:hover {
+  background: #000;
+  color: #fff;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+/*  -------------- service -------------- */
+
+.my-service {
+  background-color: #f9f9f9;
+}
+
+.service-content {
+  float: left;
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+.service-content i {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.service-content h3 {
+  font-size: 16px;
+  letter-spacing: 1px
+  margin-top: 18px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.service-content p {
+  color: #767676;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/*  -------------- resume -------------- */
+
+.resume {
+  background-color: #f9f9f9;
+}
+
+.col-horizontal {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #767676;
+}
+
+.col-horizontal:last-child {
+  border-bottom: 0;
+}
+
+h3.resume-subtitle {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+
+.col-horizontal .col-item {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.year {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.resume-detail h4 {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.resume-detail h6 {
+  font-size: 14px;
+  margin-bottom: 9px;
+  text-transform: capitalize;
+}
+
+.resume-detail p {
+  line-height: 22px;
+}
+
+/*  -------------- resume -------------- */
+
+.quotes {
+  background-image: url(../images/quote1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+}
+
+.quote-inner {
+  color: #fff;
+  text-align: center;
+}
+
+.quote-inner h3 {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.quote-inner p {
+  font-size: 14px;
+  margin-top: 12px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.quote-inner a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 11px;
+  padding: 12px 49px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: inline-block;
+  margin-top: 22px;
+} 
+
+.quote-inner a:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+
+/*  -------------- latest works -------------- */
+
+.works {
+  background-color: #f7f7f7;
+}
+
+.work {
+  float: left;
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+.work a {
+  display: block; /* a 預設為 inline 顯示但會無法設定 padding 和 margin*/
+  margin-bottom: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.work a:hover {
+  box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
+  top: -5px;
+  transition: .2s linear;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+}
+
+/*  -------------- contact me -------------- */
+
+.contact-form {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form .form-input:first-child,
+.contact-form .form-input:nth-child(2) {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.contact-form .form-input:nth-child(3) {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.contact-form .form-input input.input-style {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  text-transform: capitalize;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.contact-form .form-input textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.contact-form .form-submit {
+  text-align: left;
+  padding: 0 15px;
+}
+
+.contact-form .form-submit input {
+  font-size: 16px;
+  text-transform: capitalize;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px 60px;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.contact-form .form-submit input:hover {
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  transition: .2s linear;
+}
+
+/*  -------------- footer -------------- */
+
+footer {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content p {
+  line-height: 22px;
+}
+
