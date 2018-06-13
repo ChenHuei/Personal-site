@@ -470,3 +470,8 @@ footer {
   line-height: 22px;
 }
 
+.contact p {
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-size: 20px;
+}
