@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Welcome Huei's website！</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
@@ -32,6 +35,48 @@
   </header>
 
   <!-- home background image -->
+  <p class="nothing">nothing</p>
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="overlay"></div>
+        <img src="images/bg5.png" alt="Los Angeles">
+        <div class="carousel-caption">
+          <h3>Hello, I'm Alex</h3>
+          <p>Welcome to my personal website, nice to meet you！</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <img src="images/bg4.png" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Hobby</h3>
+          <p>I love biking, swimming, live music！</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <div class="overlay"></div>
+        <img src="images/bg8.png" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>YOLO</h3>
+          <p>And everything in my life, enjoy the moment！</p>
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  
+  <!--
   <section class="home_bg" id="home">
     <div class="overlay"></div>
     <div class="container_table">
@@ -46,6 +91,7 @@
       </div>
     </div>
   </section>
+  -->
 
   <!-- about me -->
   <section class="about_me clearfix" id="about">
@@ -134,6 +180,7 @@
       <div class="col-horizontal clearfix">
         <h3 class="resume-subtitle">eduiction：</h3>
         <div class="row">
+          <div class="col-item col-12 col-sm-12 col-md-6 col-lg-6">
             <p class="year">2012 - 2016</p>
 
             <div class="resume-detail">
@@ -148,7 +195,7 @@
       <div class="col-horizontal clearfix">
         <h3 class="resume-subtitle">Experience：</h3>
         <div class="row">
-           <div class="col-item col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="col-item col-12 col-sm-12 col-md-6 col-lg-6">
             <p class="year">2012 - 2016</p>
 
             <div class="resume-detail">
@@ -168,15 +215,11 @@
             </div>
           </div>
         </div>
-         
-
-          
       </div>
-
     </div>
   </section>
 
-  <!-- Resume -->
+  <!-- quote -->
 
   <section class="quotes">
     <div class="overlay"></div>
