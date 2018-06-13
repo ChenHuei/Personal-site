@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Welcome Huei's website！</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- header -->
@@ -52,21 +50,26 @@
   <!-- about me -->
   <section class="about_me clearfix" id="about">
     <div class="container">
-      <h2>about me</h2>
+      <div class="row">
+        <div class="col-12">
+          <h2>about me</h2>  
+        </div>
+      </div>
+      
 
-      <div class="summary">
-        <div class="col-left">
+      <div class="row">
+        <div class="col-left col-12 col-sm-12 col-md-12 col-lg-6">
           <div class="avatar">
             <img src="images/me.jpg" alt="avatar">
           </div>
         </div>
 
-        <div class="col-right">
+        <div class="col-right col-12 col-sm-12 col-md-12 col-lg-6">
           <div class="personal-info">
             <h3>hello！</h3>
             <p>我是振輝，今年 23 歲！前年從淡江大學資管系畢業後，因興趣和理念相近先至 IOH 擔任活動企劃專員將近一年，負責統整公司的線下活動。並於工作過程中發現自己對網頁設計持有一些興趣，時常利用下班後或假日的時間自學網頁相關資訊，包括 HTML、CSS、Javascript、PHP 和 Ruby  on  Rails 等。以下將更詳細說明我過往的學經歷，非常感謝您抽空觀看我的個人網站，請多多指教，謝謝！</p>
           </div>
-
+          
           <div class="skill">
             <ul>
               <li>html5 and css3</li>
@@ -77,7 +80,7 @@
 
           <div class="button-group">
             <div class="download_cv">
-              <a href="https://drive.google.com/file/d/1ytyJbFdRr9mV0z-AGyeTcorPIMRHH8HV/view?usp=sharing">download CV</a>
+              <a href="images/振輝的CV.png" download>download CV</a>
             </div>
             <div class="hire_me">
               <a href="https://pda.104.com.tw/my104/center/index?u=p8ixc1">hire me</a>
@@ -117,15 +120,20 @@
   </section>
   -->
 
+
   <!-- Resume -->
 
   <section class="resume" id="resume">
     <div class="container">
-      <h2>resume</h2>
-
+      <div class="row">
+        <div class="col-12">
+          <h2>resume</h2>
+        </div>  
+      </div>
+      
       <div class="col-horizontal clearfix">
         <h3 class="resume-subtitle">eduiction：</h3>
-        <div class="col-item">
+        <div class="row">
             <p class="year">2012 - 2016</p>
 
             <div class="resume-detail">
@@ -133,12 +141,14 @@
               <h6>私立淡江大學</h6>
               <p>應用大學四年所學的 C#、Java 和 OOP，實作 APP「治腎先師」協助台北榮總醫院腎臟科的病人，改良以往紙本紀錄全面電子化，並在校內評選優等以及參與校外比賽的資格。</p>
             </div>
+          </div>
         </div>
       </div>
 
       <div class="col-horizontal clearfix">
         <h3 class="resume-subtitle">Experience：</h3>
-          <div class="col-item">
+        <div class="row">
+           <div class="col-item col-12 col-sm-12 col-md-6 col-lg-6">
             <p class="year">2012 - 2016</p>
 
             <div class="resume-detail">
@@ -146,9 +156,9 @@
               <h6>資管系學會、國際志工</h6>
               <p>除了在過程中培養許多團隊合作、表達能力、負責任和高抗壓等的軟實力之外，更於擔任會長及國際志工的過程中，開拓眼界並逐漸堆疊出自己的價值觀。</p>
             </div>
-        </div>
+          </div>
 
-        <div class="col-item">
+          <div class="col-item col-12 col-sm-12 col-md-6 col-lg-6">
             <p class="year">2017 - 2018</p>
 
             <div class="resume-detail">
@@ -156,7 +166,11 @@
               <h6>活動企劃專員</h6>
               <p>負責統整公司的線下活動，包括規劃公司內部的活動流程、訪談老師和學生、與學校討論教學合作以及超過 20 場至全台灣高中職學校上台分享的經驗等。</p>
             </div>
+          </div>
         </div>
+         
+
+          
       </div>
 
     </div>
@@ -180,21 +194,31 @@
 
   <section class="works" id="works">
     <div class="container">
-      <h2>latest works</h2>
-
+      <div class="row">
+        <div class="col-12">
+          <h2>latest works</h2>
+        </div>  
+      </div>
+      
       <div class="work-items clearfix">
-        
-        <div class="work">
-          <a href="https://restaurant-forum-huei.herokuapp.com/users/sign_in">
-            <img src="images/restaurant.jpg" alt="restaurant">
-          </a>
-        </div>
-        
-        <div class="work">
+
+        <div class="row">
+          <div class="work col-12 col-sm-12 col-md-6 col-lg-4">
+            <a href="https://restaurant-forum-huei.herokuapp.com/users/sign_in">
+              <img src="images/restaurant.jpg" alt="restaurant">
+            </a>
+          </div>
+
+          <div class="work col-12 col-sm-12 col-md-6 col-lg-4">
           <a href="https://chenhuei.github.io/HeroGame/">
             <img src="images/hero.jpg" alt="hero">
           </a>
         </div>
+
+        </div>
+        
+        
+        
       </div>
 
 
